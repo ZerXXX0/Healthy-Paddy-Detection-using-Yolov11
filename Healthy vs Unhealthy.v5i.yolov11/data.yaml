@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Healthy', 'Unhealthy']
+
+roboflow:
+  workspace: rice-disease-detection-mwcsk
+  project: healthy-vs-unhealthy-lbomt
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rice-disease-detection-mwcsk/healthy-vs-unhealthy-lbomt/dataset/5
